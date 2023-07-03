@@ -1,11 +1,29 @@
+@media screen and (max-width: 427px) {
+}
+
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;
   }
 
+  .mob-menu-link {
+    font-size: 36px;
+  }
+
+  .tel-link {
+    font-size: 36px;
+  }
+
+  .mobmenu-soc-list {
+    gap: 56px;
+  }
+
   .advantages-item {
     max-width: 396px;
   }
+}
+
+@media screen and (min-width: 220px) and (max-width: 767px) {
 }
 
 @media screen and (min-width: 768px) {
@@ -16,6 +34,10 @@
   .header-menu {
     display: flex;
     gap: 40px;
+  }
+
+  .menu-toggle {
+    display: none;
   }
   .header-menu-item {
   }
