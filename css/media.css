@@ -31,6 +31,16 @@
     max-width: 768px;
   }
 
+  .heder-container {
+    height: 72px;
+  }
+
+  .header-logo {
+    margin-right: 120px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
   .header-menu {
     display: flex;
     gap: 40px;
@@ -80,14 +90,13 @@
   }
 
   .address {
-    font-style: normal;
-    margin-left: auto;
+    display: flex;
   }
   .address-list {
-    display: flex;
+    display: block;
     margin: 0;
     padding-left: 0;
-    gap: 40px;
+    gap: 12px;
   }
   .address-list-item {
   }
@@ -203,6 +212,10 @@
   .footer-input {
     width: 264px;
   }
+
+  .modal {
+    width: 408px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -235,6 +248,13 @@
 
   .hero-title {
     margin-bottom: 48px;
+  }
+
+  .address-list {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+    gap: 12px;
   }
 
   .advantages {
