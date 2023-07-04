@@ -201,8 +201,8 @@ body {
 }
 
 .mob-adress-list {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 .mob-address-list-item {
   font-size: 36px;
@@ -210,7 +210,6 @@ body {
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  margin-bottom: 40px;
 }
 .mob-address-list-link {
 }
@@ -228,7 +227,7 @@ body {
 .mobmenu-soc-list {
   display: flex;
   justify-content: space-between;
-  padding-top: 48px;
+  margin-top: 48px;
 }
 .mobmenu-soc-item {
   width: 40px;

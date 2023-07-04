@@ -1,4 +1,7 @@
 @media screen and (max-width: 427px) {
+  .tel-link {
+    font-size: 24px;
+  }
 }
 
 @media screen and (min-width: 428px) {
